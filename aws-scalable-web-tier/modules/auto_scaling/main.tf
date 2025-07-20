@@ -7,7 +7,9 @@ resource "aws_launch_template" "web" {
 
   user_data = base64encode(<<EOF
 #!/bin/bash
-sudo dnf install -y nginx
+#!/bin/bash
+sudo apt update
+sudo apt install -y nginx
 sudo systemctl enable nginx
 sudo systemctl start nginx
 sudo systemctl status nginx

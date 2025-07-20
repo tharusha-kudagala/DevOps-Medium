@@ -8,8 +8,8 @@ variable "azs" {
 }
 
 variable "ami_id" {
-  description = "Amazon Linux 2023 AMI ID"
-  default     = "ami-0150ccaf51ab55a51"
+  description = "Ubuntu 24.04 AMI ID"
+  default     = "ami-020cba7c55df1f615"
 }
 
 variable "route53_zone_id" {
