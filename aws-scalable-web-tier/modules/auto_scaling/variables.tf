@@ -1,4 +1,6 @@
 // AMI ID for EC2 instances
+// Variables for Auto Scaling module
+// This file defines input variables for Auto Scaling resources
 variable "ami_id" {
   type = string
 }

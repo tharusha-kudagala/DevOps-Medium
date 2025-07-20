@@ -15,5 +15,5 @@ variable "ami_id" {
 variable "route53_zone_id" {
   description = "The hosted zone ID for nefraverse.com"
   type        = string
-  default = "Z00015582YUDQSY16BOZL"
+  default = "<YOUR_HOSTED_ZONE_ID>"
 }

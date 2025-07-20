@@ -1,4 +1,5 @@
 // Launch template for EC2 instances in the Auto Scaling group
+# Launch template configuration for EC2 instances
 resource "aws_launch_template" "web" {
   name_prefix   = "web-lt-"
   image_id      = var.ami_id
@@ -19,6 +20,7 @@ EOF
 }
 
 // Auto Scaling group for web servers
+# Auto Scaling group configuration for managing web server instances
 resource "aws_autoscaling_group" "web_asg" {
   desired_capacity    = 2
   max_size            = 4
