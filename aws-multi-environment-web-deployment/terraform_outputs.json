@@ -1,0 +1,27 @@
+{
+  "alb_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:elasticloadbalancing:us-east-1:386895030216:loadbalancer/app/multi-env-alb/e34591c11b48c2e8"
+  },
+  "api_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://14fgquw8z2.execute-api.us-east-1.amazonaws.com"
+  },
+  "jumpbox_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "100.26.126.165"
+  },
+  "production_private_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "10.0.2.209"
+  },
+  "staging_private_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "10.0.1.185"
+  }
+}
