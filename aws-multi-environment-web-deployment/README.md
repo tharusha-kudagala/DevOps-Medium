@@ -12,7 +12,7 @@ This project deploys a **staging** and **production** environment on AWS using:
 
 ## Architecture Diagram
 
-![AWS Scalable Web Tier](https://github.com/tharusha-kudagala/DevOps-Medium/blob/main/aws-multi-environment-web-deployment/day3.png?raw=true)
+![AWS Scalable Web Tier](https://github.com/tharusha-kudagala/DevOps-Medium/blob/main/aws-multi-environment-web-deployment/architecture.png?raw=true)
 
 
 ## Bash Deployment Script
